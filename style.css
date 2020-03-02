@@ -21,28 +21,42 @@
   justify-content: center;
 }
 
-.grid-container--fill-1, .grid-container--fill-4 {
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  justify-content: center;
+}
+
+.grid-container--fill-1,
+.grid-container--fill-4 {
   display: grid;
   grid-template-columns: repeat(15, 1fr);
   grid-template-rows: repeat(21, 1fr);
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
 }
 
-.grid-container--fill-2 {
+.grid-container--fill-2, .grid-container--fill-3 {
   display: grid;
   grid-template-columns: repeat(13, 1fr);
   grid-template-rows: repeat(21, 1fr);
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
 }
 
-.grid-container--fill-3 {
+.grid-container--fill-5 {
   display: grid;
-  grid-template-columns: repeat(13, 1fr);
-  grid-template-rows: repeat(21, 1fr);
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.grid-container--fill-6,
+.grid-container--fill-7 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+}
+
+.grid-container--fill-8 {
+  display: grid;
+  grid-template-columns: repeat(17, 1fr);
+  grid-template-rows: repeat(9, 1fr);
 }
 
 .grido1 {
@@ -4510,6 +4524,2026 @@
 }
 
 .gridos280 {
+  background-color: deeppink;
+}
+
+.gridos286 {
+  background-color: deeppink;
+}
+
+.gridos287 {
+  background-color: deeppink;
+}
+
+.gridos288 {
+  background-color: deeppink;
+}
+
+.gridos289 {
+  background-color: deeppink;
+}
+
+.gridos290 {
+  background-color: deeppink;
+}
+
+.gridos291 {
+  background-color: deeppink;
+}
+
+.gridos292 {
+  background-color: deeppink;
+}
+
+.gridos293 {
+  background-color: deeppink;
+}
+
+.gridos294 {
+  background-color: deeppink;
+}
+
+.gridos302 {
+  background-color: deeppink;
+}
+
+.gridos303 {
+  background-color: deeppink;
+}
+
+.gridos304 {
+  background-color: deeppink;
+}
+
+.gridos305 {
+  background-color: deeppink;
+}
+
+.gridos306 {
+  background-color: deeppink;
+}
+
+.gridos307 {
+  background-color: deeppink;
+}
+
+.gridos-20 {
+  background-color: deeppink;
+}
+
+.gridos-21 {
+  background-color: deeppink;
+}
+
+.gridos-22 {
+  background-color: deeppink;
+}
+
+.gridos-23 {
+  background-color: deeppink;
+}
+
+.gridos-24 {
+  background-color: deeppink;
+}
+
+.gridos-25 {
+  background-color: deeppink;
+}
+
+.gridos-26 {
+  background-color: deeppink;
+}
+
+.gridos-27 {
+  background-color: deeppink;
+}
+
+.gridos-28 {
+  background-color: deeppink;
+}
+
+.gridos-29 {
+  background-color: deeppink;
+}
+
+.gridos-30 {
+  background-color: deeppink;
+}
+
+.gridos-31 {
+  background-color: deeppink;
+}
+
+.gridos-32 {
+  background-color: deeppink;
+}
+
+.gridos-33 {
+  background-color: deeppink;
+}
+
+.gridos-34 {
+  background-color: deeppink;
+}
+
+.gridos-35 {
+  background-color: deeppink;
+}
+
+.gridos-36 {
+  background-color: deeppink;
+}
+
+.gridos-40 {
+  background-color: deeppink;
+}
+
+.gridos-41 {
+  background-color: deeppink;
+}
+
+.gridos-42 {
+  background-color: deeppink;
+}
+
+.gridos-43 {
+  background-color: deeppink;
+}
+
+.gridos-44 {
+  background-color: deeppink;
+}
+
+.gridos-45 {
+  background-color: deeppink;
+}
+
+.gridos-46 {
+  background-color: deeppink;
+}
+
+.gridos-47 {
+  background-color: deeppink;
+}
+
+.gridos-48 {
+  background-color: deeppink;
+}
+
+.gridos-49 {
+  background-color: deeppink;
+}
+
+.gridos-50 {
+  background-color: deeppink;
+}
+
+.gridos-51 {
+  background-color: deeppink;
+}
+
+.gridos-52 {
+  background-color: deeppink;
+}
+
+.gridos-53 {
+  background-color: deeppink;
+}
+
+.gridos-54 {
+  background-color: deeppink;
+}
+
+.gridos-57 {
+  background-color: deeppink;
+}
+
+.gridos-58 {
+  background-color: deeppink;
+}
+
+.gridos-59 {
+  background-color: deeppink;
+}
+
+.gridos-60 {
+  background-color: deeppink;
+}
+
+.gridos-61 {
+  background-color: deeppink;
+}
+
+.gridos-62 {
+  background-color: deeppink;
+}
+
+.gridos-63 {
+  background-color: deeppink;
+}
+
+.gridos-64 {
+  background-color: deeppink;
+}
+
+.gridos-65 {
+  background-color: deeppink;
+}
+
+.gridos-66 {
+  background-color: deeppink;
+}
+
+.gridos-67 {
+  background-color: deeppink;
+}
+
+.gridos-68 {
+  background-color: deeppink;
+}
+
+.gridos-69 {
+  background-color: deeppink;
+}
+
+.gridos-70 {
+  background-color: deeppink;
+}
+
+.gridos-71 {
+  background-color: deeppink;
+}
+
+.gridos-72 {
+  background-color: deeppink;
+}
+
+.gridos-74 {
+  background-color: deeppink;
+}
+
+.gridos-75 {
+  background-color: deeppink;
+}
+
+.gridos-76 {
+  background-color: deeppink;
+}
+
+.gridos-77 {
+  background-color: deeppink;
+}
+
+.gridos-78 {
+  background-color: deeppink;
+}
+
+.gridos-79 {
+  background-color: deeppink;
+}
+
+.gridos-80 {
+  background-color: deeppink;
+}
+
+.gridos-81 {
+  background-color: deeppink;
+}
+
+.gridos-82 {
+  background-color: deeppink;
+}
+
+.gridos-83 {
+  background-color: deeppink;
+}
+
+.gridos-84 {
+  background-color: deeppink;
+}
+
+.gridos-85 {
+  background-color: deeppink;
+}
+
+.gridos-86 {
+  background-color: deeppink;
+}
+
+.gridos-87 {
+  background-color: deeppink;
+}
+
+.gridos-88 {
+  background-color: deeppink;
+}
+
+.gridos-89 {
+  background-color: deeppink;
+}
+
+.gridos-90 {
+  background-color: deeppink;
+}
+
+.gridos-92 {
+  background-color: deeppink;
+}
+
+.gridos-93 {
+  background-color: deeppink;
+}
+
+.gridos-94 {
+  background-color: deeppink;
+}
+
+.gridos-95 {
+  background-color: deeppink;
+}
+
+.gridos-96 {
+  background-color: deeppink;
+}
+
+.gridos-97 {
+  background-color: deeppink;
+}
+
+.gridos-98 {
+  background-color: deeppink;
+}
+
+.gridos-99 {
+  background-color: deeppink;
+}
+
+.gridos-100 {
+  background-color: deeppink;
+}
+
+.gridos-101 {
+  background-color: deeppink;
+}
+
+.gridos-102 {
+  background-color: deeppink;
+}
+
+.gridos-103 {
+  background-color: deeppink;
+}
+
+.gridos-104 {
+  background-color: deeppink;
+}
+
+.gridos-105 {
+  background-color: deeppink;
+}
+
+.gridos-106 {
+  background-color: deeppink;
+}
+
+.gridos-107 {
+  background-color: deeppink;
+}
+
+.gridos-108 {
+  background-color: deeppink;
+}
+
+.gridos-109 {
+  background-color: deeppink;
+}
+
+.gridos-110 {
+  background-color: deeppink;
+}
+
+.gridos-111 {
+  background-color: deeppink;
+}
+
+.gridos-112 {
+  background-color: deeppink;
+}
+
+.gridos-113 {
+  background-color: deeppink;
+}
+
+.gridos-114 {
+  background-color: deeppink;
+}
+
+.gridos-115 {
+  background-color: deeppink;
+}
+
+.gridos-116 {
+  background-color: deeppink;
+}
+
+.gridos-117 {
+  background-color: deeppink;
+}
+
+.gridos-118 {
+  background-color: deeppink;
+}
+
+.gridos-119 {
+  background-color: deeppink;
+}
+
+.gridos-120 {
+  background-color: deeppink;
+}
+
+.gridos-121 {
+  background-color: deeppink;
+}
+
+.gridos-122 {
+  background-color: deeppink;
+}
+
+.gridos-123 {
+  background-color: deeppink;
+}
+
+.gridos-124 {
+  background-color: deeppink;
+}
+
+.gridos-125 {
+  background-color: deeppink;
+}
+
+.gridos-126 {
+  background-color: deeppink;
+}
+
+.gridos-129 {
+  background-color: deeppink;
+}
+
+.gridos-130 {
+  background-color: deeppink;
+}
+
+.gridos-131 {
+  background-color: deeppink;
+}
+
+.gridos-132 {
+  background-color: deeppink;
+}
+
+.gridos-133 {
+  background-color: deeppink;
+}
+
+.gridos-134 {
+  background-color: deeppink;
+}
+
+.gridos-135 {
+  background-color: deeppink;
+}
+
+.gridos-136 {
+  background-color: deeppink;
+}
+
+.gridos-137 {
+  background-color: deeppink;
+}
+
+.gridos-138 {
+  background-color: deeppink;
+}
+
+.gridos-139 {
+  background-color: deeppink;
+}
+
+.gridos-140 {
+  background-color: deeppink;
+}
+
+.gridos-141 {
+  background-color: deeppink;
+}
+
+.gridos-142 {
+  background-color: deeppink;
+}
+
+.gridos-143 {
+  background-color: deeppink;
+}
+
+.gridos-144 {
+  background-color: deeppink;
+}
+
+.gridos-148 {
+  background-color: deeppink;
+}
+
+.gridos-149 {
+  background-color: deeppink;
+}
+
+.gridos-150 {
+  background-color: deeppink;
+}
+
+.gridos-151 {
+  background-color: deeppink;
+}
+
+.gridos-152 {
+  background-color: deeppink;
+}
+
+.gridos-153 {
+  background-color: deeppink;
+}
+
+.gridos-154 {
+  background-color: deeppink;
+}
+
+.gridos-155 {
+  background-color: deeppink;
+}
+
+.gridos-156 {
+  background-color: deeppink;
+}
+
+.gridos-157 {
+  background-color: deeppink;
+}
+
+.gridos-158 {
+  background-color: deeppink;
+}
+
+.gridos-159 {
+  background-color: deeppink;
+}
+
+.gridos-160 {
+  background-color: deeppink;
+}
+
+.gridos-161 {
+  background-color: deeppink;
+}
+
+.gridos-162 {
+  background-color: deeppink;
+}
+
+.gridos--2 {
+  background-color: deeppink;
+}
+
+.gridos--3 {
+  background-color: deeppink;
+}
+
+.gridos--4 {
+  background-color: deeppink;
+}
+
+.gridos--5 {
+  background-color: deeppink;
+}
+
+.gridos--6 {
+  background-color: deeppink;
+}
+
+.gridos--7 {
+  background-color: deeppink;
+}
+
+.gridos--8 {
+  background-color: deeppink;
+}
+
+.gridos--9 {
+  background-color: deeppink;
+}
+
+.gridos--10 {
+  background-color: deeppink;
+}
+
+.gridos--11 {
+  background-color: deeppink;
+}
+
+.gridos--12 {
+  background-color: deeppink;
+}
+
+.gridos--13 {
+  background-color: deeppink;
+}
+
+.gridos--14 {
+  background-color: deeppink;
+}
+
+.gridos--15 {
+  background-color: deeppink;
+}
+
+.gridos--16 {
+  background-color: deeppink;
+}
+
+.gridos--17 {
+  background-color: deeppink;
+}
+
+.gridos--18 {
+  background-color: deeppink;
+}
+
+.gridos--19 {
+  background-color: deeppink;
+}
+
+.gridos--20 {
+  background-color: deeppink;
+}
+
+.gridos--21 {
+  background-color: deeppink;
+}
+
+.gridos--22 {
+  background-color: deeppink;
+}
+
+.gridos--23 {
+  background-color: deeppink;
+}
+
+.gridos--24 {
+  background-color: deeppink;
+}
+
+.gridos--25 {
+  background-color: deeppink;
+}
+
+.gridos--26 {
+  background-color: deeppink;
+}
+
+.gridos--27 {
+  background-color: deeppink;
+}
+
+.gridos--28 {
+  background-color: deeppink;
+}
+
+.gridos--29 {
+  background-color: deeppink;
+}
+
+.gridos--30 {
+  background-color: deeppink;
+}
+
+.gridos--31 {
+  background-color: deeppink;
+}
+
+.gridos--32 {
+  background-color: deeppink;
+}
+
+.gridos--33 {
+  background-color: deeppink;
+}
+
+.gridos--34 {
+  background-color: deeppink;
+}
+
+.gridos--35 {
+  background-color: deeppink;
+}
+
+.gridos--36 {
+  background-color: deeppink;
+}
+
+.gridos--37 {
+  background-color: deeppink;
+}
+
+.gridos--38 {
+  background-color: deeppink;
+}
+
+.gridos--39 {
+  background-color: deeppink;
+}
+
+.gridos--40 {
+  background-color: deeppink;
+}
+
+.gridos--41 {
+  background-color: deeppink;
+}
+
+.gridos--42 {
+  background-color: deeppink;
+}
+
+.gridos--43 {
+  background-color: deeppink;
+}
+
+.gridos--44 {
+  background-color: deeppink;
+}
+
+.gridos--45 {
+  background-color: deeppink;
+}
+
+.gridos--46 {
+  background-color: deeppink;
+}
+
+.gridos--47 {
+  background-color: deeppink;
+}
+
+.gridos--48 {
+  background-color: deeppink;
+}
+
+.gridos--49 {
+  background-color: deeppink;
+}
+
+.gridos--50 {
+  background-color: deeppink;
+}
+
+.gridos--51 {
+  background-color: deeppink;
+}
+
+.gridos--52 {
+  background-color: deeppink;
+}
+
+.gridos--53 {
+  background-color: deeppink;
+}
+
+.gridos--54 {
+  background-color: deeppink;
+}
+
+.gridos--55 {
+  background-color: deeppink;
+}
+
+.gridos--56 {
+  background-color: deeppink;
+}
+
+.gridos--57 {
+  background-color: deeppink;
+}
+
+.gridos--58 {
+  background-color: deeppink;
+}
+
+.gridos--59 {
+  background-color: deeppink;
+}
+
+.gridos--60 {
+  background-color: deeppink;
+}
+
+.gridos--61 {
+  background-color: deeppink;
+}
+
+.gridos--62 {
+  background-color: deeppink;
+}
+
+.gridos--63 {
+  background-color: deeppink;
+}
+
+.gridos--64 {
+  background-color: deeppink;
+}
+
+.gridos--65 {
+  background-color: deeppink;
+}
+
+.gridos--66 {
+  background-color: deeppink;
+}
+
+.gridos--67 {
+  background-color: deeppink;
+}
+
+.gridos--68 {
+  background-color: deeppink;
+}
+
+.gridos--69 {
+  background-color: deeppink;
+}
+
+.gridos--70 {
+  background-color: deeppink;
+}
+
+.gridos--71 {
+  background-color: deeppink;
+}
+
+.gridos--72 {
+  background-color: deeppink;
+}
+
+.gridos--73 {
+  background-color: deeppink;
+}
+
+.gridos--74 {
+  background-color: deeppink;
+}
+
+.gridos--75 {
+  background-color: deeppink;
+}
+
+.gridos--76 {
+  background-color: deeppink;
+}
+
+.gridos--77 {
+  background-color: deeppink;
+}
+
+.gridos--78 {
+  background-color: deeppink;
+}
+
+.gridos--79 {
+  background-color: deeppink;
+}
+
+.gridos--80 {
+  background-color: deeppink;
+}
+
+.gridos--81 {
+  background-color: deeppink;
+}
+
+.gridos--82 {
+  background-color: deeppink;
+}
+
+.gridos--83 {
+  background-color: deeppink;
+}
+
+.gridos--84 {
+  background-color: deeppink;
+}
+
+.gridos--85 {
+  background-color: deeppink;
+}
+
+.gridos--86 {
+  background-color: deeppink;
+}
+
+.gridos--87 {
+  background-color: deeppink;
+}
+
+.gridos--88 {
+  background-color: deeppink;
+}
+
+.gridos--89 {
+  background-color: deeppink;
+}
+
+.gridos--90 {
+  background-color: deeppink;
+}
+
+.gridos--91 {
+  background-color: deeppink;
+}
+
+.gridos--92 {
+  background-color: deeppink;
+}
+
+.gridos--93 {
+  background-color: deeppink;
+}
+
+.gridos--94 {
+  background-color: deeppink;
+}
+
+.gridos--95 {
+  background-color: deeppink;
+}
+
+.gridos--96 {
+  background-color: deeppink;
+}
+
+.gridos--97 {
+  background-color: deeppink;
+}
+
+.gridos--98 {
+  background-color: deeppink;
+}
+
+.gridos--99 {
+  background-color: deeppink;
+}
+
+.gridos--100 {
+  background-color: deeppink;
+}
+
+.gridos--101 {
+  background-color: deeppink;
+}
+
+.gridos--102 {
+  background-color: deeppink;
+}
+
+.gridos--103 {
+  background-color: deeppink;
+}
+
+.gridos--104 {
+  background-color: deeppink;
+}
+
+.gridos--105 {
+  background-color: deeppink;
+}
+
+.gridos--106 {
+  background-color: deeppink;
+}
+
+.gridos--107 {
+  background-color: deeppink;
+}
+
+.gridos--108 {
+  background-color: deeppink;
+}
+
+.gridose2 {
+  background-color: deeppink;
+}
+
+.gridose3 {
+  background-color: deeppink;
+}
+
+.gridose4 {
+  background-color: deeppink;
+}
+
+.gridose5 {
+  background-color: deeppink;
+}
+
+.gridose6 {
+  background-color: deeppink;
+}
+
+.gridose7 {
+  background-color: deeppink;
+}
+
+.gridose8 {
+  background-color: deeppink;
+}
+
+.gridose9 {
+  background-color: deeppink;
+}
+
+.gridose10 {
+  background-color: deeppink;
+}
+
+.gridose11 {
+  background-color: deeppink;
+}
+
+.gridose12 {
+  background-color: deeppink;
+}
+
+.gridose13 {
+  background-color: deeppink;
+}
+
+.gridose14 {
+  background-color: deeppink;
+}
+
+.gridose15 {
+  background-color: deeppink;
+}
+
+.gridose16 {
+  background-color: deeppink;
+}
+
+.gridose17 {
+  background-color: deeppink;
+}
+
+.gridose18 {
+  background-color: deeppink;
+}
+
+.gridose19 {
+  background-color: deeppink;
+}
+
+.gridose20 {
+  background-color: deeppink;
+}
+
+.gridose21 {
+  background-color: deeppink;
+}
+
+.gridose22 {
+  background-color: deeppink;
+}
+
+.gridose23 {
+  background-color: deeppink;
+}
+
+.gridose24 {
+  background-color: deeppink;
+}
+
+.gridose25 {
+  background-color: deeppink;
+}
+
+.gridose26 {
+  background-color: deeppink;
+}
+
+.gridose27 {
+  background-color: deeppink;
+}
+
+.gridose28 {
+  background-color: deeppink;
+}
+
+.gridose29 {
+  background-color: deeppink;
+}
+
+.gridose30 {
+  background-color: deeppink;
+}
+
+.gridose31 {
+  background-color: deeppink;
+}
+
+.gridose32 {
+  background-color: deeppink;
+}
+
+.gridose33 {
+  background-color: deeppink;
+}
+
+.gridose34 {
+  background-color: deeppink;
+}
+
+.gridose35 {
+  background-color: deeppink;
+}
+
+.gridose36 {
+  background-color: deeppink;
+}
+
+.gridose37 {
+  background-color: deeppink;
+}
+
+.gridose38 {
+  background-color: deeppink;
+}
+
+.gridose39 {
+  background-color: deeppink;
+}
+
+.gridose40 {
+  background-color: deeppink;
+}
+
+.gridose41 {
+  background-color: deeppink;
+}
+
+.gridose42 {
+  background-color: deeppink;
+}
+
+.gridose43 {
+  background-color: deeppink;
+}
+
+.gridose44 {
+  background-color: deeppink;
+}
+
+.gridose45 {
+  background-color: deeppink;
+}
+
+.gridose46 {
+  background-color: deeppink;
+}
+
+.gridose47 {
+  background-color: deeppink;
+}
+
+.gridose48 {
+  background-color: deeppink;
+}
+
+.gridose49 {
+  background-color: deeppink;
+}
+
+.gridose50 {
+  background-color: deeppink;
+}
+
+.gridose51 {
+  background-color: deeppink;
+}
+
+.gridose52 {
+  background-color: deeppink;
+}
+
+.gridose53 {
+  background-color: deeppink;
+}
+
+.gridose54 {
+  background-color: deeppink;
+}
+
+.gridose55 {
+  background-color: deeppink;
+}
+
+.gridose56 {
+  background-color: deeppink;
+}
+
+.gridose57 {
+  background-color: deeppink;
+}
+
+.gridose58 {
+  background-color: deeppink;
+}
+
+.gridose59 {
+  background-color: deeppink;
+}
+
+.gridose60 {
+  background-color: deeppink;
+}
+
+.gridose61 {
+  background-color: deeppink;
+}
+
+.gridose62 {
+  background-color: deeppink;
+}
+
+.gridose63 {
+  background-color: deeppink;
+}
+
+.gridose64 {
+  background-color: deeppink;
+}
+
+.gridose65 {
+  background-color: deeppink;
+}
+
+.gridose66 {
+  background-color: deeppink;
+}
+
+.gridose67 {
+  background-color: deeppink;
+}
+
+.gridose68 {
+  background-color: deeppink;
+}
+
+.gridose69 {
+  background-color: deeppink;
+}
+
+.gridose70 {
+  background-color: deeppink;
+}
+
+.gridose71 {
+  background-color: deeppink;
+}
+
+.gridose72 {
+  background-color: deeppink;
+}
+
+.gridose73 {
+  background-color: deeppink;
+}
+
+.gridose74 {
+  background-color: deeppink;
+}
+
+.gridose75 {
+  background-color: deeppink;
+}
+
+.gridose76 {
+  background-color: deeppink;
+}
+
+.gridose77 {
+  background-color: deeppink;
+}
+
+.gridose78 {
+  background-color: deeppink;
+}
+
+.gridose79 {
+  background-color: deeppink;
+}
+
+.gridose80 {
+  background-color: deeppink;
+}
+
+.gridose81 {
+  background-color: deeppink;
+}
+
+.gridose82 {
+  background-color: deeppink;
+}
+
+.gridose83 {
+  background-color: deeppink;
+}
+
+.gridose84 {
+  background-color: deeppink;
+}
+
+.gridose85 {
+  background-color: deeppink;
+}
+
+.gridose86 {
+  background-color: deeppink;
+}
+
+.gridose87 {
+  background-color: deeppink;
+}
+
+.gridose88 {
+  background-color: deeppink;
+}
+
+.gridose89 {
+  background-color: deeppink;
+}
+
+.gridose90 {
+  background-color: deeppink;
+}
+
+.gridose91 {
+  background-color: deeppink;
+}
+
+.gridose92 {
+  background-color: deeppink;
+}
+
+.gridose93 {
+  background-color: deeppink;
+}
+
+.gridose94 {
+  background-color: deeppink;
+}
+
+.gridose95 {
+  background-color: deeppink;
+}
+
+.gridose96 {
+  background-color: deeppink;
+}
+
+.gridose97 {
+  background-color: deeppink;
+}
+
+.gridose98 {
+  background-color: deeppink;
+}
+
+.gridose99 {
+  background-color: deeppink;
+}
+
+.gridose100 {
+  background-color: deeppink;
+}
+
+.gridose101 {
+  background-color: deeppink;
+}
+
+.gridose102 {
+  background-color: deeppink;
+}
+
+.gridose103 {
+  background-color: deeppink;
+}
+
+.gridose104 {
+  background-color: deeppink;
+}
+
+.gridose105 {
+  background-color: deeppink;
+}
+
+.gridose106 {
+  background-color: deeppink;
+}
+
+.gridose107 {
+  background-color: deeppink;
+}
+
+.gridose108 {
+  background-color: deeppink;
+}
+
+.gridoses1 {
+  background-color: deeppink;
+}
+
+.gridoses2 {
+  background-color: deeppink;
+}
+
+.gridoses3 {
+  background-color: deeppink;
+}
+
+.gridoses4 {
+  background-color: deeppink;
+}
+
+.gridoses5 {
+  background-color: deeppink;
+}
+
+.gridoses6 {
+  background-color: deeppink;
+}
+
+.gridoses7 {
+  background-color: deeppink;
+}
+
+.gridoses8 {
+  background-color: deeppink;
+}
+
+.gridoses9 {
+  background-color: deeppink;
+}
+
+.gridoses10 {
+  background-color: deeppink;
+}
+
+.gridoses11 {
+  background-color: deeppink;
+}
+
+.gridoses12 {
+  background-color: deeppink;
+}
+
+.gridoses13 {
+  background-color: deeppink;
+}
+
+.gridoses14 {
+  background-color: deeppink;
+}
+
+.gridoses15 {
+  background-color: deeppink;
+}
+
+.gridoses18 {
+  background-color: deeppink;
+}
+
+.gridoses19 {
+  background-color: deeppink;
+}
+
+.gridoses20 {
+  background-color: deeppink;
+}
+
+.gridoses21 {
+  background-color: deeppink;
+}
+
+.gridoses22 {
+  background-color: deeppink;
+}
+
+.gridoses23 {
+  background-color: deeppink;
+}
+
+.gridoses24 {
+  background-color: deeppink;
+}
+
+.gridoses25 {
+  background-color: deeppink;
+}
+
+.gridoses26 {
+  background-color: deeppink;
+}
+
+.gridoses27 {
+  background-color: deeppink;
+}
+
+.gridoses28 {
+  background-color: deeppink;
+}
+
+.gridoses29 {
+  background-color: deeppink;
+}
+
+.gridoses30 {
+  background-color: deeppink;
+}
+
+.gridoses31 {
+  background-color: deeppink;
+}
+
+.gridoses32 {
+  background-color: deeppink;
+}
+
+.gridoses35 {
+  background-color: deeppink;
+}
+
+.gridoses36 {
+  background-color: deeppink;
+}
+
+.gridoses37 {
+  background-color: deeppink;
+}
+
+.gridoses38 {
+  background-color: deeppink;
+}
+
+.gridoses39 {
+  background-color: deeppink;
+}
+
+.gridoses40 {
+  background-color: deeppink;
+}
+
+.gridoses41 {
+  background-color: deeppink;
+}
+
+.gridoses42 {
+  background-color: deeppink;
+}
+
+.gridoses43 {
+  background-color: deeppink;
+}
+
+.gridoses44 {
+  background-color: deeppink;
+}
+
+.gridoses45 {
+  background-color: deeppink;
+}
+
+.gridoses46 {
+  background-color: deeppink;
+}
+
+.gridoses47 {
+  background-color: deeppink;
+}
+
+.gridoses48 {
+  background-color: deeppink;
+}
+
+.gridoses49 {
+  background-color: deeppink;
+}
+
+.gridoses50 {
+  background-color: deeppink;
+}
+
+.gridoses52 {
+  background-color: deeppink;
+}
+
+.gridoses53 {
+  background-color: deeppink;
+}
+
+.gridoses54 {
+  background-color: deeppink;
+}
+
+.gridoses55 {
+  background-color: deeppink;
+}
+
+.gridoses56 {
+  background-color: deeppink;
+}
+
+.gridoses57 {
+  background-color: deeppink;
+}
+
+.gridoses58 {
+  background-color: deeppink;
+}
+
+.gridoses59 {
+  background-color: deeppink;
+}
+
+.gridoses60 {
+  background-color: deeppink;
+}
+
+.gridoses61 {
+  background-color: deeppink;
+}
+
+.gridoses62 {
+  background-color: deeppink;
+}
+
+.gridoses63 {
+  background-color: deeppink;
+}
+
+.gridoses64 {
+  background-color: deeppink;
+}
+
+.gridoses65 {
+  background-color: deeppink;
+}
+
+.gridoses66 {
+  background-color: deeppink;
+}
+
+.gridoses67 {
+  background-color: deeppink;
+}
+
+.gridoses69 {
+  background-color: deeppink;
+}
+
+.gridoses70 {
+  background-color: deeppink;
+}
+
+.gridoses71 {
+  background-color: deeppink;
+}
+
+.gridoses72 {
+  background-color: deeppink;
+}
+
+.gridoses73 {
+  background-color: deeppink;
+}
+
+.gridoses74 {
+  background-color: deeppink;
+}
+
+.gridoses75 {
+  background-color: deeppink;
+}
+
+.gridoses76 {
+  background-color: deeppink;
+}
+
+.gridoses77 {
+  background-color: deeppink;
+}
+
+.gridoses78 {
+  background-color: deeppink;
+}
+
+.gridoses79 {
+  background-color: deeppink;
+}
+
+.gridoses80 {
+  background-color: deeppink;
+}
+
+.gridoses81 {
+  background-color: deeppink;
+}
+
+.gridoses82 {
+  background-color: deeppink;
+}
+
+.gridoses83 {
+  background-color: deeppink;
+}
+
+.gridoses84 {
+  background-color: deeppink;
+}
+
+.gridoses85 {
+  background-color: deeppink;
+}
+
+.gridoses86 {
+  background-color: deeppink;
+}
+
+.gridoses87 {
+  background-color: deeppink;
+}
+
+.gridoses88 {
+  background-color: deeppink;
+}
+
+.gridoses89 {
+  background-color: deeppink;
+}
+
+.gridoses90 {
+  background-color: deeppink;
+}
+
+.gridoses91 {
+  background-color: deeppink;
+}
+
+.gridoses92 {
+  background-color: deeppink;
+}
+
+.gridoses93 {
+  background-color: deeppink;
+}
+
+.gridoses94 {
+  background-color: deeppink;
+}
+
+.gridoses95 {
+  background-color: deeppink;
+}
+
+.gridoses96 {
+  background-color: deeppink;
+}
+
+.gridoses97 {
+  background-color: deeppink;
+}
+
+.gridoses98 {
+  background-color: deeppink;
+}
+
+.gridoses99 {
+  background-color: deeppink;
+}
+
+.gridoses100 {
+  background-color: deeppink;
+}
+
+.gridoses101 {
+  background-color: deeppink;
+}
+
+.gridoses102 {
+  background-color: deeppink;
+}
+
+.gridoses103 {
+  background-color: deeppink;
+}
+
+.gridoses104 {
+  background-color: deeppink;
+}
+
+.gridoses105 {
+  background-color: deeppink;
+}
+
+.gridoses106 {
+  background-color: deeppink;
+}
+
+.gridoses107 {
+  background-color: deeppink;
+}
+
+.gridoses108 {
+  background-color: deeppink;
+}
+
+.gridoses109 {
+  background-color: deeppink;
+}
+
+.gridoses110 {
+  background-color: deeppink;
+}
+
+.gridoses111 {
+  background-color: deeppink;
+}
+
+.gridoses112 {
+  background-color: deeppink;
+}
+
+.gridoses113 {
+  background-color: deeppink;
+}
+
+.gridoses114 {
+  background-color: deeppink;
+}
+
+.gridoses115 {
+  background-color: deeppink;
+}
+
+.gridoses116 {
+  background-color: deeppink;
+}
+
+.gridoses117 {
+  background-color: deeppink;
+}
+
+.gridoses118 {
+  background-color: deeppink;
+}
+
+.gridoses119 {
+  background-color: deeppink;
+}
+
+.gridoses120 {
+  background-color: deeppink;
+}
+
+.gridoses121 {
+  background-color: deeppink;
+}
+
+.gridoses122 {
+  background-color: deeppink;
+}
+
+.gridoses123 {
+  background-color: deeppink;
+}
+
+.gridoses124 {
+  background-color: deeppink;
+}
+
+.gridoses125 {
+  background-color: deeppink;
+}
+
+.gridoses126 {
+  background-color: deeppink;
+}
+
+.gridoses127 {
+  background-color: deeppink;
+}
+
+.gridoses128 {
+  background-color: deeppink;
+}
+
+.gridoses129 {
+  background-color: deeppink;
+}
+
+.gridoses130 {
+  background-color: deeppink;
+}
+
+.gridoses131 {
+  background-color: deeppink;
+}
+
+.gridoses132 {
+  background-color: deeppink;
+}
+
+.gridoses133 {
+  background-color: deeppink;
+}
+
+.gridoses134 {
+  background-color: deeppink;
+}
+
+.gridoses135 {
+  background-color: deeppink;
+}
+
+.gridoses136 {
+  background-color: deeppink;
+}
+
+.gridoses137 {
+  background-color: deeppink;
+}
+
+.gridoses138 {
+  background-color: deeppink;
+}
+
+.gridoses139 {
+  background-color: deeppink;
+}
+
+.gridoses140 {
+  background-color: deeppink;
+}
+
+.gridoses141 {
+  background-color: deeppink;
+}
+
+.gridoses142 {
+  background-color: deeppink;
+}
+
+.gridoses143 {
+  background-color: deeppink;
+}
+
+.gridoses144 {
+  background-color: deeppink;
+}
+
+.gridoses145 {
+  background-color: deeppink;
+}
+
+.gridoses146 {
+  background-color: deeppink;
+}
+
+.gridoses147 {
+  background-color: deeppink;
+}
+
+.gridoses148 {
+  background-color: deeppink;
+}
+
+.gridoses149 {
+  background-color: deeppink;
+}
+
+.gridoses150 {
+  background-color: deeppink;
+}
+
+.gridoses151 {
   background-color: deeppink;
 }
 

@@ -3,6 +3,7 @@
   grid-auto-rows: 30%;
   grid-gap: 10px;
 }
+
 .grid-container {
   display: grid;
   padding: 5px;
@@ -20,28 +21,47 @@
   justify-content: center;
 }
 
+.container2 {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  justify-content: center;
+}
 
-  .grid-container--fill-1,.grid-container--fill-4  {
-    display: grid;
-    grid-template-columns: repeat(15, 1fr);
-    grid-template-rows: repeat(21, 1fr);
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-  }
-  .grid-container--fill-2 {
-    display: grid;
-    grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: repeat(21, 1fr);
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-  }
-  .grid-container--fill-3 {
-    display: grid;
-    grid-template-columns: repeat(13, 1fr);
-    grid-template-rows: repeat(21, 1fr);
-    grid-column-gap: 2px;
-    grid-row-gap: 2px;
-  }
+
+.grid-container--fill-1,
+.grid-container--fill-4 {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+
+}
+
+.grid-container--fill-2,.grid-container--fill-3  {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(21, 1fr);
+
+}
+
+.grid-container--fill-5  {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+
+}
+.grid-container--fill-6, 
+.grid-container--fill-7 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+
+}
+.grid-container--fill-8  {
+  display: grid;
+  grid-template-columns: repeat(17, 1fr);
+  grid-template-rows: repeat(9, 1fr);
+
+}
 
 // container3
 // container-fill 1 
@@ -57,96 +77,115 @@
   }
 
 }
+
 @for $i from 10 through 13 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 50 through 60 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 65 through 75 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 79 through 90 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 94 through 105 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 109 through 120 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 123 through 135 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 138 through 150 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 152 through 165 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 167 through 180 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 182 through 195 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 197 through 210 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 213 through 225 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 228 through 240 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 244 through 255 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 259 through 270 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 275 through 285 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 292 through 300 {
   .grido#{$i} {
     background-color: deepPink;
   }
 }
+
 @for $i from 310 through 314 {
   .grido#{$i} {
     background-color: deepPink;
@@ -161,11 +200,13 @@
     background-color: deeppink;
   }
 }
+
 @for $i from 17 through 23 {
   .grido-#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 29 through 325 {
   .grido-#{$i} {
     background-color: deeppink;
@@ -179,94 +220,205 @@
     background-color: deeppink;
   }
 }
+
 @for $i from 16 through 23 {
   .grido--#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 27 through 37 {
   .grido--#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 40 through 51 {
   .grido--#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 53 through 325 {
   .grido--#{$i} {
     background-color: deeppink;
   }
 }
+
 // container-fill 4 
 @for $i from 4 through 11 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 46 through 59 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 61 through 105 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 106 through 119 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 121 through 150 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 151 through 164 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 166 through 178 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 181 through 193 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 196 through 208 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 211 through 222 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 226 through 237 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 241 through 251 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 256 through 266 {
   .gridos#{$i} {
     background-color: deeppink;
   }
 }
+
 @for $i from 271 through 280 {
   .gridos#{$i} {
+    background-color: deeppink;
+  }
+}
+
+@for $i from 286 through 294 {
+  .gridos#{$i} {
+    background-color: deeppink;
+  }
+}
+
+@for $i from 302 through 307 {
+  .gridos#{$i} {
+    background-color: deeppink;
+  }
+}
+
+//container 5
+
+@for $i from 20 through 36{
+  .gridos-#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 40 through 54 {
+  .gridos-#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 57 through 72 {
+  .gridos-#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 74 through 90 {
+  .gridos-#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 92 through 108 {
+  .gridos-#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 109 through 126 {
+  .gridos-#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 129 through 144{
+  .gridos-#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 148 through 162 {
+  .gridos-#{$i} {
+    background-color: deeppink;
+  }
+}
+//container 6
+@for $i from 2 through 108 {
+  .gridos--#{$i} {
+    background-color: deeppink;
+  }
+}
+//container 7
+@for $i from 2 through 108 {
+  .gridose#{$i} {
+    background-color: deeppink;
+  }
+}
+//container 8
+@for $i from 1 through 15 {
+  .gridoses#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 18 through 32 {
+  .gridoses#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 35 through 50 {
+  .gridoses#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 52 through 67 {
+  .gridoses#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 69 through 151 {
+  .gridoses#{$i} {
     background-color: deeppink;
   }
 }
