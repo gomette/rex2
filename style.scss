@@ -6,7 +6,7 @@
 
 .grid-container {
   display: grid;
-  padding: 5px;
+  padding: 2px;
 }
 
 .grid-element {
@@ -19,12 +19,14 @@
   display: grid;
   grid-template-columns: repeat(4, 25%);
   justify-content: center;
+  margin: 10px;
 }
 
 .container2 {
   display: grid;
   grid-template-columns: repeat(4, 25%);
   justify-content: center;
+  margin: 10px;
 }
 
 
