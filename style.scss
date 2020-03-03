@@ -106,7 +106,42 @@
   grid-template-rows: repeat(10, 1fr);
 
 }
+.grid-container--fill-14  {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
 
+}
+.grid-container--fill-15  {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+
+}
+.grid-container--fill-16  {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+
+}
+.grid-container--fill-17  {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+
+}
+.grid-container--fill-18  {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+
+}
+.grid-container--fill-19  {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+
+}
 // container3
 // container-fill 1 
 @for $i from 1 through 9 {
@@ -566,6 +601,11 @@
   }
 }
 @for $i from 962 through 970 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 972 through 1835 {
   .grid#{$i} {
     background-color: deeppink;
   }

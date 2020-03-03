@@ -216,3 +216,81 @@ function addSeats13() {
   }
 
 }
+function addSeats14() {
+
+  var myWrapper = document.querySelector(".grid-container.grid-container--fill-14");
+  var cpt = 971;
+  for (var i = 0; i < 144; i++) {
+    cpt++;
+    var div = document.createElement('div');
+    var Mine = div.setAttribute("class", "grid-element grid" + cpt);
+    myWrapper.appendChild(div);
+
+  }
+
+}
+function addSeats15() {
+
+  var myWrapper = document.querySelector(".grid-container.grid-container--fill-15");
+  var cpt = 1115;
+  for (var i = 0; i < 144; i++) {
+    cpt++;
+    var div = document.createElement('div');
+    var Mine = div.setAttribute("class", "grid-element grid" + cpt);
+    myWrapper.appendChild(div);
+
+  }
+
+}
+function addSeats16() {
+
+  var myWrapper = document.querySelector(".grid-container.grid-container--fill-16");
+  var cpt = 1259;
+  for (var i = 0; i < 144; i++) {
+    cpt++;
+    var div = document.createElement('div');
+    var Mine = div.setAttribute("class", "grid-element grid" + cpt);
+    myWrapper.appendChild(div);
+
+  }
+
+}
+function addSeats17() {
+
+  var myWrapper = document.querySelector(".grid-container.grid-container--fill-17");
+  var cpt = 1403;
+  for (var i = 0; i < 144; i++) {
+    cpt++;
+    var div = document.createElement('div');
+    var Mine = div.setAttribute("class", "grid-element grid" + cpt);
+    myWrapper.appendChild(div);
+
+  }
+
+}
+function addSeats18() {
+
+  var myWrapper = document.querySelector(".grid-container.grid-container--fill-18");
+  var cpt = 1547;
+  for (var i = 0; i < 144; i++) {
+    cpt++;
+    var div = document.createElement('div');
+    var Mine = div.setAttribute("class", "grid-element grid" + cpt);
+    myWrapper.appendChild(div);
+
+  }
+
+}
+function addSeats19() {
+
+  var myWrapper = document.querySelector(".grid-container.grid-container--fill-19");
+  var cpt = 1691;
+  for (var i = 0; i < 144; i++) {
+    cpt++;
+    var div = document.createElement('div');
+    var Mine = div.setAttribute("class", "grid-element grid" + cpt);
+    myWrapper.appendChild(div);
+
+  }
+
+}
