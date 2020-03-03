@@ -28,6 +28,18 @@
   justify-content: center;
   margin: 10px;
 }
+.container1 {
+  display: grid;
+  grid-template-columns: repeat(5, 20%);
+  justify-content: center;
+  margin: 10px;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(6, 16.6%);
+  justify-content: center;
+  margin: 10px;
+}
 
 
 .grid-container--fill-1,
@@ -62,6 +74,36 @@
   display: grid;
   grid-template-columns: repeat(17, 1fr);
   grid-template-rows: repeat(9, 1fr);
+
+}
+.grid-container--fill-9  {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+
+}
+.grid-container--fill-10  {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+
+}
+.grid-container--fill-11  {
+  display: grid;
+  grid-template-columns: repeat(13, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+
+}
+.grid-container--fill-12  {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+
+}
+.grid-container--fill-13  {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  grid-template-rows: repeat(10, 1fr);
 
 }
 
@@ -421,6 +463,110 @@
 }
 @for $i from 69 through 151 {
   .gridoses#{$i} {
+    background-color: deeppink;
+  }
+}
+
+//container fill 9
+
+@for $i from 402 through 410 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 412 through 420 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 422 through 430 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 432 through 440 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 442 through 450 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 451 through 480 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 482 through 490 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 492 through 500 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+
+@for $i from 502 through 620 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 621 through 750 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 751 through 870 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 872 through 880 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 882 through 890 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 892 through 900 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 902 through 910 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 912 through 920 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 922 through 930 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 932 through 940 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 942 through 961 {
+  .grid#{$i} {
+    background-color: deeppink;
+  }
+}
+@for $i from 962 through 970 {
+  .grid#{$i} {
     background-color: deeppink;
   }
 }
